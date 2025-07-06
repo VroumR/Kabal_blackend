@@ -1,17 +1,14 @@
 [tool.poetry]
 name = "kabal-backend"
 version = "0.1.0"
-description = "Backend for Sephirot attribution"
+description = ""
 authors = ["Avroumi"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-flask = "^2.2.2"
+flask = "^2.3.2"
 gunicorn = "^21.2.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.package]
-package-mode = false
