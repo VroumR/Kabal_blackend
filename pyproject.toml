@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "kabal-backend"
 version = "0.1.0"
-description = ""
+description = "Backend for Sephirot attribution"
 authors = ["Avroumi"]
+packages = []
 
 [tool.poetry.dependencies]
 python = "^3.10"
