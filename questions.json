@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "Je prends facilement des décisions même si elles sont difficiles.",
+    "sephira": "Gevurah"
+  },
+  {
+    "id": 2,
+    "question": "Je ressens une forte envie de donner sans rien attendre en retour.",
+    "sephira": "Chesed"
+  },
+  {
+    "id": 3,
+    "question": "Je cherche toujours à comprendre en profondeur avant d’agir.",
+    "sephira": "Binah"
+  },
+  {
+    "id": 4,
+    "question": "Je laisse parfois mon intuition me guider, même sans logique apparente.",
+    "sephira": "Chokhmah"
+  },
+  {
+    "id": 5,
+    "question": "Je cherche souvent l’équilibre et l’harmonie dans mes relations.",
+    "sephira": "Tiferet"
+  },
+  {
+    "id": 6,
+    "question": "J’ai une volonté forte d’atteindre mes objectifs, même si c’est long.",
+    "sephira": "Netzach"
+  },
+  {
+    "id": 7,
+    "question": "Je me sens souvent attiré par l’art, la parole ou l’écriture.",
+    "sephira": "Hod"
+  },
+  {
+    "id": 8,
+    "question": "Je sens que mon rôle est de relier les autres, de rassembler.",
+    "sephira": "Yesod"
+  },
+  {
+    "id": 9,
+    "question": "Je m’épanouis dans des situations concrètes, où je peux agir dans la matière.",
+    "sephira": "Malkhout"
+  },
+  {
+    "id": 10,
+    "question": "Je ressens que mon expérience personnelle est une synthèse entre le savoir et l’action.",
+    "sephira": "Daat"
+  }
+]
