@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: kabal-backend
-    runtime: python
+    name: kabal-blackend
+    env: python
     buildCommand: ""
-    startCommand: gunicorn main:app
-    envVars:
-      - key: PORT
-        value: 10000
+    startCommand: gunicorn main:app --bind 0.0.0.0:$PORT
+
