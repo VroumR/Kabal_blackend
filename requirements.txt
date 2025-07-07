@@ -1,3 +1,5 @@
-flask
-gunicorn
-convertdate
+Flask==3.1.1
+gunicorn==23.0.0
+convertdate==2.4.0
+pymeeus==0.5.12
+
