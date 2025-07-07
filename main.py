@@ -1,4 +1,4 @@
-iimport os
+import os
 from flask import Flask, request, jsonify
 from sephirot_logic import get_sephirot_info
 
