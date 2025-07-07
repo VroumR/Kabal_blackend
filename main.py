@@ -7,9 +7,8 @@ app = Flask(__name__)
 @app.route("/sephirot", methods=["POST"])
 def get_sephirot():
     data = request.get_json()
-    birth_date = data.get("birth_date")  # format: "YYYY-MM-DD"
-    birth_time = data.get("birth_time")  # format: "HH:MM"
-
+    birth_date = data.get("birth_date")
+    birth_time = data.get("birth_time")
     try:
         response = get_sephirot_info(birth_date, birth_time)
         return jsonify(response)
@@ -18,9 +17,10 @@ def get_sephirot():
 
 @app.route("/")
 def home():
-    return "✅ KABAL Backend is running"
+    return "✅ KABAL backend fonctionne."
 
+# CORRECT 🔥
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Render fournit le PORT
+    port = int(os.environ.get("PORT", 5000))  # Render définit PORT automatiquement
     app.run(host="0.0.0.0", port=port)
 
