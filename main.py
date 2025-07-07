@@ -1,4 +1,4 @@
-import os
+iimport os
 from flask import Flask, request, jsonify
 from sephirot_logic import get_sephirot_info
 
@@ -16,10 +16,10 @@ def get_sephirot():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+@app.route("/")
+def home():
+    return "✅ KABAL Backend is running"
+
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
-if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 5000))  # Render fournit PORT
     app.run(host="0.0.0.0", port=port)
