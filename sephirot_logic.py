@@ -45,12 +45,10 @@ def get_sephirot_info(birth_date, birth_time):
 
     h_year, h_month, h_day = hebrew.from_gregorian(dt.year, dt.month, dt.day)
 
-    main_sephira = HEBREW_MONTH_TO_SEPHIRA.get(h_month, "Inconnu")
-    secondary_sephira = get_hour_sephira(dt.hour + dt.minute / 60)
+    dominante = HEBREW_MONTH_TO_SEPHIRA.get(h_month, "Inconnu")
+    secondaire = get_hour_sephira(dt.hour + dt.minute / 60)
 
     return {
-        "gregorian_date": birth_date,
-        "hebrew_date": f"{h_day} {h_month} {h_year}",
-        "main_sephira": main_sephira,
-        "secondary_sephira": secondary_sephira
+        "dominante": dominante,
+        "secondaires": [secondaire]
     }
